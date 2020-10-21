@@ -34,7 +34,7 @@
         $greeting = 'ランダムなメッセージ';
         $greeting2 = $greetingArray[rand(0,4)];
     }else {
-        $greeting = 'まちがってるよ、あほ死ね';
+        $greeting = 'まちがってるよ';
         $greeting2 = '';
     }
     
