@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>calcApp</title>
+  <title>messege</title>
 </head>
 
 <body>
@@ -33,6 +33,9 @@
     }elseif ($msg == 'random') {
         $greeting = 'ランダムなメッセージ';
         $greeting2 = $greetingArray[rand(0,4)];
+    }else {
+        $greeting = 'まちがってるよ、あほ死ね';
+        $greeting2 = '';
     }
     
         
@@ -40,7 +43,7 @@
 
 
 
-<h1>{{ $greeting}}</h>
+<h1>{{ $greeting}}</h1>
 <h2>{{$greeting2}}</h2>
 
 
